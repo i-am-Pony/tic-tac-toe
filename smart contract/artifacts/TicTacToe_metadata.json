@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_gameFee",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "position",
+						"type": "uint8"
+					}
+				],
+				"name": "makeMove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registerPlayer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tic_toc_test.sol": "TicTacToe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tic_toc_test.sol": {
+			"keccak256": "0x4ab1a4fcdb4091cae597d7d4ed528fa5c6d31f154c68a6fd24e3838982166925",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58fe146887d6f893414ed33b07527c57049285670aeb33b92980f64da8fbe8dd",
+				"dweb:/ipfs/QmV2YEYYicTvy9Ykmq3ZDsx3ECAeav69MTk5gwin2u7rrm"
+			]
+		}
+	},
+	"version": 1
+}
